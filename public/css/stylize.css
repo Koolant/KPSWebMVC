@@ -1,0 +1,149 @@
+body {
+  font-family: 'Questrial', sans-serif;
+}
+#box-wrapper{
+  background-image:
+  linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+  url("../img/bgpenguin.jpg");
+  background-size:cover;
+  background-attachment:fixed;
+  background-position:center top;
+  background-repeat:no-repeat;
+  min-height:400px;
+  height:100vh;
+}
+.container-fluid {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.sect-1 {
+  padding-top: 200px;
+  margin-bottom: 400px;
+}
+.sect-1 h1 {
+  color:#ffffff;
+  font-size:60px;
+}
+.sect-1 h2 {
+  color:#ffffff;
+}
+.bg-2{
+  background-color: #72a3ff;
+  color: #ffffff;
+}
+.bg-2 h3{
+  padding:30px 0 0;
+}
+.bg-3{
+  font-size:20px;
+  color:#ffffff;
+  background-color:#c14d4d;
+}
+.bg-3 h3{
+  font-size:40px;
+}
+.bg-3 label{
+  padding:20px 0px 20px;
+}
+.bg-5{
+  background-color:#363b44;
+}
+.bg-grey{
+  background-color:#72a3ff;
+  color:#ffffff;
+  padding-bottom:200px;
+  padding-top:100px;
+}
+.bg-grey h2{
+  font-size:40px;
+  padding:20px 0px 20px;
+}
+#foot{
+  margin:auto;
+}
+.bg-4{
+  font-size:20px;
+  color:#ffffff;
+  background-color:#363b44;
+}
+/*.bg-4 p{
+  margin:-50px 0 0px;
+  */
+
+#mailerform{
+  font-size:20px;
+}
+#submit_button{
+  margin:20px 0px 20px;
+  color:#363b44;
+}
+/*@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+*/
+.navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #72a3ff !important;
+}
+#page-title{
+  font-size: 68px
+}
+.separate {
+	border-top: 1px solid #ffffff;
+	text-align: center;
+  width: 50%
+}
+.separate:after {
+  content: '§';
+	display: inline-block;
+	position: relative;
+	top: -14px;
+	padding: 0 1px;
+	background: transparent;
+	color: #ffffff;
+	font-size: 18px;
+	-webkit-transform: rotate(60deg);
+	-moz-transform: rotate(60deg);
+	transform: rotate(60deg);
+}
+.crop img {
+    margin: -20px 0px 0 0px;
+    height: 450px;
+}
+#about h3 {
+  font-size:40px;
+  margin-bottom:60px
+}
+#about p {
+  font-size:25px;
+  margin-bottom:60px
+}
+#about-page {
+  padding:30px 0 50px;
+}
+#scrollContent{
+	height:186px;
+	overflow:auto;
+	position:relative;
+}
